@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2012-05-04T06:17:44.025158Z"
+   url="https://59.72.109.31:8443/svn/zhhy/android/LetMeTry"
+   last-author="zmm"
+   kind="dir"
+   uuid="0dc6eeea-c3f2-b74f-85dd-9c531f07742b"
+   repos="https://59.72.109.31:8443/svn/zhhy"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name=".classpath"
+   text-time="2012-05-10T06:54:57.555040Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="190f666332cc550efd902a01024e2762"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:49.460839Z"/>
+<entry
+   committed-rev="14"
+   name="project.properties"
+   text-time="2012-05-10T06:54:57.617543Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="20dec2f9aaa5a58913c0bf2d98afc8a0"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:49.476465Z"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   committed-rev="14"
+   name=".project"
+   text-time="2012-05-10T06:54:57.695672Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="4e752c98a01fc3a15a1452cceab6f570"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:49.710853Z"/>
+<entry
+   committed-rev="14"
+   name="proguard-project.txt"
+   text-time="2012-05-10T06:54:57.773800Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="18bfe77c342b4698f1cef19cf8d918e2"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:49.742105Z"/>
+<entry
+   committed-rev="15"
+   name="AndroidManifest.xml"
+   text-time="2012-05-15T11:16:41.916655Z"
+   committed-date="2012-05-16T02:12:52.049649Z"
+   checksum="7d5c4cde9f1dfcaea3aa1cb4d50285de"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-10T06:54:49.773357Z"
+   revision="15"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="gen"
+   kind="dir"/>
+<entry
+   name="res"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff333333"
+        android:text="返回"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/widget40"
+        android:layout_width="200px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/returnButton"
+        android:background="#ff333333"
+        android:text="(1.请拍摄物品，也可以从本地选择或从网上下载)"
+        android:textSize="13sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/widget40"
+        android:background="#ff333333"
+        android:text="再来一次"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/homeButton"
+        android:background="#ff333333"
+        android:text="Help"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:id="@+id/twill"
+        android:layout_width="match_parent"
+        android:layout_height="650px"
+        android:layout_below="@id/returnButton"
+        android:layout_gravity="center"
+        android:background="#FFFAF0" >
+
+        <SurfaceView
+            android:id="@+id/surface"
+            android:layout_width="fill_parent"
+            android:layout_height="650px"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/localChoiceButton"
+        android:layout_width="125px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:background="#ff333333"
+        android:text="本地选择"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/takePhotoButton"
+        android:layout_width="125px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:layout_toRightOf="@id/localChoiceButton"
+        android:background="#ff333333"
+        android:text="拍照"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="125px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:layout_toRightOf="@id/takePhotoButton"
+        android:background="#ff333333"
+        android:text="下载"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/extractItemButton"
+        android:layout_width="125px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:layout_toRightOf="@id/downloadButton"
+        android:background="#ff333333"
+        android:text="提取物品"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+</RelativeLayout>

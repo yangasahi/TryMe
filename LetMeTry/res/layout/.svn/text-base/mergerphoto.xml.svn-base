@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff333333"
+        android:text="返回"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/widget40"
+        android:layout_width="200px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/returnButton"
+        android:background="#ff333333"
+        android:text="(6.对背景和物品进行调整)"
+        android:textSize="13sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/widget40"
+        android:background="#ff333333"
+        android:text="再来一次"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/homeButton"
+        android:background="#ff333333"
+        android:text="Help"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:id="@+id/twill"
+        android:layout_width="match_parent"
+        android:layout_height="650px"
+        android:layout_below="@id/returnButton"
+        android:layout_gravity="center"
+        android:background="#FFFAF0" >
+
+        <mytry.test.TouchView
+            android:id="@+id/imgBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pic" >
+        </mytry.test.TouchView>>
+
+        <mytry.test.TouchView
+            android:id="@+id/imgWuPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xiaoma" >
+        </mytry.test.TouchView>>
+
+        <mytry.test.TouchView
+            android:id="@+id/imgWuPin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </mytry.test.TouchView>>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="125px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:background="#ff333333"
+        android:text="保存文件"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="125px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:layout_toRightOf="@id/saveButton"
+        android:background="#ff333333"
+        android:text="共享"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/adornButton"
+        android:layout_width="125px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:layout_toRightOf="@id/shareButton"
+        android:background="#ff333333"
+        android:text="装饰"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="125px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:layout_toRightOf="@id/adornButton"
+        android:background="#ff333333"
+        android:text="退出"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ff333333"
+        android:text="返回"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/widget40"
+        android:layout_width="200px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/returnButton"
+        android:background="#ff333333"
+        android:text="(2.可以用框选或手动选择来提取物品)"
+        android:textSize="13sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/widget40"
+        android:background="#ff333333"
+        android:text="再来一次"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="100px"
+        android:layout_height="70px"
+        android:layout_toRightOf="@id/homeButton"
+        android:background="#ff333333"
+        android:text="Help"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:id="@+id/twill"
+        android:layout_width="match_parent"
+        android:layout_height="640px"
+        android:layout_below="@id/returnButton"
+        android:layout_gravity="center"
+        android:background="#FFFAF0" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="640px"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/kuangExtractButton"
+        android:layout_width="150px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:background="#ff333333"
+        android:text="框选"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/manualExtractButton"
+        android:layout_width="200px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:layout_toRightOf="@id/kuangExtractButton"
+        android:background="#ff333333"
+        android:text="手动选择"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/sureButton"
+        android:layout_width="150px"
+        android:layout_height="70px"
+        android:layout_below="@id/twill"
+        android:layout_toRightOf="@id/manualExtractButton"
+        android:background="#ff333333"
+        android:text="确定"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+
+</RelativeLayout>

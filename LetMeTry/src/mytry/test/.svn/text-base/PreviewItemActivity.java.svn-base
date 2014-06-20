@@ -1,0 +1,123 @@
+package mytry.test;
+
+import mytry.test.TakeItemphotoActivity.HelpButtonListener;
+import mytry.test.TakeItemphotoActivity.HomeButtonListener;
+import mytry.test.TakeItemphotoActivity.LocalChoiceButtonListener;
+import mytry.test.TakeItemphotoActivity.ReturnButtonListener;
+import mytry.test.TakeItemphotoActivity.TakePhotoButtonListener;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class PreviewItemActivity extends Activity {
+	private Button choiceBackgroundButton;
+	private Button shareButton;
+	private Button homeButton;
+	private Button returnButton;
+	private Button helpButton;
+	private Button saveButton;
+	private Button adornButton;
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.previewitem);
+        choiceBackgroundButton=(Button)findViewById(R.id.choiceBackgroundButton);
+        choiceBackgroundButton.setOnClickListener(new ChoiceBackgroundButtonListener());
+        shareButton=(Button)findViewById(R.id.shareButton);
+        shareButton.setOnClickListener(new ShareButtonListener());
+        homeButton=(Button)findViewById(R.id.homeButton);
+        homeButton.setOnClickListener(new HomeButtonListener());
+        returnButton=(Button)findViewById(R.id.returnButton);
+        returnButton.setOnClickListener(new ReturnButtonListener());
+        helpButton=(Button)findViewById(R.id.helpButton);
+        helpButton.setOnClickListener(new HelpButtonListener());
+        saveButton=(Button)findViewById(R.id.saveButton);
+        saveButton.setOnClickListener(new SaveButtonListener());
+        adornButton=(Button)findViewById(R.id.adornButton);
+        adornButton.setOnClickListener(new AdornButtonListener());
+    }
+    class ChoiceBackgroundButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			
+			Intent intent = new Intent();
+			intent.setClass(PreviewItemActivity.this, TakeBackgphotoActivity.class);
+			//使用这个Intent对象来启动ResultActivity
+			PreviewItemActivity.this.startActivity(intent);
+		}
+    }
+    class ShareButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			
+			Intent intent = new Intent();
+			intent.setClass(PreviewItemActivity.this, ShareActivity.class);
+			//使用这个Intent对象来启动ResultActivity
+			PreviewItemActivity.this.startActivity(intent);
+		}
+    }
+    class HomeButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			
+			Intent intent = new Intent();
+			intent.setClass(PreviewItemActivity.this, TakeItemphotoActivity.class);
+			//使用这个Intent对象来启动ResultActivity
+			PreviewItemActivity.this.startActivity(intent);
+		}
+    }
+    class ReturnButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			finish();
+			
+		}
+    }
+    class AdornButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(PreviewItemActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+    class SaveButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(PreviewItemActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+    class HelpButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(PreviewItemActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE4B5"
+     >
+    
+    <EditText 
+        android:id="@+id/inputEdit"
+        android:hint="请输入手机号码"
+        android:selectAllOnFocus="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:phoneNumber="true"
+        />
+
+    <Button 
+       
+        android:id="@+id/confirm"
+        android:layout_below="@id/inputEdit"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        />
+    <Button 
+        android:id="@+id/closeButton"
+        android:layout_below="@id/inputEdit"
+        android:layout_toRightOf="@id/confirm"
+        android:text="返回"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="560px"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/confirm"
+        android:src="@drawable/caixin" />
+
+</RelativeLayout>

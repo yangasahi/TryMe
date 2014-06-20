@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2012-05-04T06:17:44.025158Z"
+   url="https://59.72.109.31:8443/svn/zhhy/android/LetMeTry/res/drawable-hdpi"
+   last-author="zmm"
+   kind="dir"
+   uuid="0dc6eeea-c3f2-b74f-85dd-9c531f07742b"
+   repos="https://59.72.109.31:8443/svn/zhhy"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="ic_launcher.png"
+   text-time="2012-05-10T06:54:55.179918Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="e99d5b979b433e182115f7d9e8f2ca7c"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:55.101789Z"/>
+</wc-entries>

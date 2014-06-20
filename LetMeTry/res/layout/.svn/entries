@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2012-05-04T06:17:44.025158Z"
+   url="https://59.72.109.31:8443/svn/zhhy/android/LetMeTry/res/layout"
+   last-author="zmm"
+   kind="dir"
+   uuid="0dc6eeea-c3f2-b74f-85dd-9c531f07742b"
+   repos="https://59.72.109.31:8443/svn/zhhy"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="previewitem.xml"
+   text-time="2012-05-10T06:54:56.758130Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="31f64f592d17857452b847c1a691acb0"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.289357Z"/>
+<entry
+   committed-rev="14"
+   name="previewbackground.xml"
+   text-time="2012-05-10T06:54:56.836258Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="d3c73b8c7fd3e744d009ac0348ed60aa"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.320609Z"/>
+<entry
+   committed-rev="14"
+   name="share.xml"
+   text-time="2012-05-10T06:54:56.898761Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="c6d04354d2b0e7b800f217e165d45f09"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.367487Z"/>
+<entry
+   committed-rev="14"
+   name="main.xml"
+   text-time="2012-05-10T06:54:56.976889Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="cab04996c9bfdd8be2cb4d1203956661"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.429990Z"/>
+<entry
+   committed-rev="14"
+   name="takebackgphoto.xml"
+   text-time="2012-05-10T06:54:57.070644Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="8c0db6648b0cd5a007e231d7c15a5d38"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.492493Z"/>
+<entry
+   committed-rev="15"
+   name="extractitem.xml"
+   text-time="2012-05-15T13:18:48.938264Z"
+   committed-date="2012-05-16T02:12:52.049649Z"
+   checksum="b49e1ed7a3f00676f9571d618bf52b3f"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.539370Z"
+   revision="15"/>
+<entry
+   committed-rev="14"
+   name="selectextract.xml"
+   text-time="2012-05-10T06:54:57.195649Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="9c0ed544da7f708a9b43fa7a2fac201c"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.586247Z"/>
+<entry
+   committed-rev="17"
+   name="mergerphoto.xml"
+   text-time="2012-05-19T07:38:57.902766Z"
+   committed-date="2012-05-20T06:00:58.199825Z"
+   checksum="e4ff16b91c22def6185b43620dff9139"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.633124Z"
+   revision="17"/>
+<entry
+   committed-rev="15"
+   name="takeitemphoto.xml"
+   text-time="2012-05-15T12:42:33.375594Z"
+   committed-date="2012-05-16T02:12:52.049649Z"
+   checksum="9eb2a20aa198d437274bf8f6e2035da3"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-10T06:54:56.680001Z"
+   revision="15"/>
+</wc-entries>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2012-05-04T06:17:44.025158Z"
+   url="https://59.72.109.31:8443/svn/zhhy/android/LetMeTry/res/values"
+   last-author="zmm"
+   kind="dir"
+   uuid="0dc6eeea-c3f2-b74f-85dd-9c531f07742b"
+   repos="https://59.72.109.31:8443/svn/zhhy"
+   revision="14"/>
+<entry
+   committed-rev="15"
+   name="strings.xml"
+   text-time="2012-05-15T06:33:33.105774Z"
+   committed-date="2012-05-16T02:12:52.049649Z"
+   checksum="153493c4e4ba84f1e0af242454c279a8"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-10T06:54:54.804897Z"
+   revision="15"/>
+</wc-entries>

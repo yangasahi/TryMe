@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2012-05-04T06:17:44.025158Z"
+   url="https://59.72.109.31:8443/svn/zhhy/android/LetMeTry/src"
+   last-author="zmm"
+   kind="dir"
+   uuid="0dc6eeea-c3f2-b74f-85dd-9c531f07742b"
+   repos="https://59.72.109.31:8443/svn/zhhy"
+   revision="14"/>
+<entry
+   name="mytry"
+   kind="dir"/>
+</wc-entries>

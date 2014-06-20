@@ -1,0 +1,135 @@
+package mytry.test;
+
+import mytry.test.PreviewItemActivity.AdornButtonListener;
+import mytry.test.PreviewItemActivity.HelpButtonListener;
+import mytry.test.PreviewItemActivity.SaveButtonListener;
+import mytry.test.PreviewItemActivity.ShareButtonListener;
+import mytry.test.TakeItemphotoActivity.HomeButtonListener;
+import mytry.test.TakeItemphotoActivity.ReturnButtonListener;
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class MergerPhotoActivity extends Activity {
+	
+	private TouchView imgBackground = null;
+	private TouchView imgWuPin = null;
+	private TouchView imgWuPin2 = null;
+	
+	private Button shareButton = null;
+	private Button exitButton = null;
+	private Button homeButton = null;
+	private Button returnButton = null;
+	private Button helpButton = null;
+	private Button saveButton = null;
+	private Button adornButton = null;
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.mergerphoto);
+        
+        imgBackground = (TouchView)findViewById(R.id.imgBackground);
+        imgWuPin = (TouchView)findViewById(R.id.imgWuPin);
+		imgWuPin2 = (TouchView)findViewById(R.id.imgWuPin2);
+        
+        shareButton=(Button)findViewById(R.id.shareButton);
+        shareButton.setOnClickListener(new ShareButtonListener());
+        homeButton=(Button)findViewById(R.id.homeButton);
+        homeButton.setOnClickListener(new HomeButtonListener());
+        returnButton=(Button)findViewById(R.id.returnButton);
+        returnButton.setOnClickListener(new ReturnButtonListener());
+        helpButton=(Button)findViewById(R.id.helpButton);
+        helpButton.setOnClickListener(new HelpButtonListener());
+        saveButton=(Button)findViewById(R.id.saveButton);
+        saveButton.setOnClickListener(new SaveButtonListener());
+        adornButton=(Button)findViewById(R.id.adornButton);
+        adornButton.setOnClickListener(new AdornButtonListener());
+        exitButton = (Button)findViewById(R.id.exitButton);
+        exitButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(Intent.ACTION_MAIN);
+				intent.addCategory(Intent.CATEGORY_HOME);
+				intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				startActivity(intent);
+				System.exit(0);
+			}
+		});
+    }
+    class ShareButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			
+			Intent intent = new Intent();
+			intent.setClass(MergerPhotoActivity.this, ShareActivity.class);
+			//使用这个Intent对象来启动ResultActivity
+			MergerPhotoActivity.this.startActivity(intent);
+		}
+    }
+    class HomeButtonListener implements OnClickListener{
+
+		//		@Override
+		public void onClick(View v) {
+		    Intent intent = new Intent();
+			intent.setClass(MergerPhotoActivity.this, TakeItemphotoActivity.class);
+			//使用这个Intent对象来启动ResultActivity
+			MergerPhotoActivity.this.startActivity(intent);
+		}
+
+    }
+    class ReturnButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			finish();
+			
+		}
+    }
+    class AdornButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(MergerPhotoActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+    class SaveButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+			View view = getWindow().getDecorView();   
+	        view.layout(0, 0, imgBackground.getWidth(), imgBackground.getHeight()+returnButton.getHeight());  
+	        view.setDrawingCacheEnabled(true);
+	        view.buildDrawingCache();
+	        Bitmap bitmap = view.getDrawingCache();
+	        
+	        Bitmap bitmap2 = Bitmap.createBitmap(bitmap, 0, returnButton.getHeight(), imgBackground.getWidth(), imgBackground.getHeight());
+	        imgWuPin2.setImageBitmap(bitmap2);	
+		}
+    }
+    class HelpButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(MergerPhotoActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+}

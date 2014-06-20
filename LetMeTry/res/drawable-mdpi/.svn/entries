@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2012-05-04T06:17:44.025158Z"
+   url="https://59.72.109.31:8443/svn/zhhy/android/LetMeTry/res/drawable-mdpi"
+   last-author="zmm"
+   kind="dir"
+   uuid="0dc6eeea-c3f2-b74f-85dd-9c531f07742b"
+   repos="https://59.72.109.31:8443/svn/zhhy"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="ic_launcher.png"
+   text-time="2012-05-10T06:54:55.758077Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="7a1dae47bd5a8ee85e0c58995b57f464"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:55.695573Z"/>
+<entry
+   committed-rev="18"
+   name="xiaoma.png"
+   text-time="2012-05-19T07:00:12.163438Z"
+   committed-date="2012-05-20T06:02:42.986209Z"
+   checksum="0aa4b1a8c9f8f5eca0791a75d600da45"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-20T06:02:37.696915Z"
+   revision="18"/>
+<entry
+   committed-rev="18"
+   name="pic.jpg"
+   text-time="2012-05-19T07:00:00.865551Z"
+   committed-date="2012-05-20T06:02:42.986209Z"
+   checksum="ac407c0b5a0dd4afdf9524983b9eabb8"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-20T06:02:37.634415Z"
+   revision="18"/>
+</wc-entries>

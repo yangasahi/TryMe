@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2012-05-04T06:17:44.025158Z"
+   url="https://59.72.109.31:8443/svn/zhhy/android/LetMeTry/src/mytry/test"
+   last-author="zmm"
+   kind="dir"
+   uuid="0dc6eeea-c3f2-b74f-85dd-9c531f07742b"
+   repos="https://59.72.109.31:8443/svn/zhhy"
+   revision="14"/>
+<entry
+   committed-rev="14"
+   name="ShareActivity.java"
+   text-time="2012-05-10T06:54:50.664033Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="5738ced3a5ef8f6333e161a050d42ef1"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:50.164004Z"/>
+<entry
+   name="ShakeListener.java"
+   kind="file"
+   schedule="add"
+   revision="0"/>
+<entry
+   committed-rev="14"
+   name="TakeBackgphotoActivity.java"
+   text-time="2012-05-10T06:54:50.742163Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="c22fc57b15e88266cca0578bd959ab24"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:50.242134Z"/>
+<entry
+   committed-rev="15"
+   name="ExtractItemActivity.java"
+   text-time="2012-05-15T13:25:20.558104Z"
+   committed-date="2012-05-16T02:12:52.049649Z"
+   checksum="0142d1a5f8676b0e2b9033396d150579"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-10T06:54:50.289012Z"
+   revision="15"/>
+<entry
+   committed-rev="14"
+   name="SelectExtractActivity.java"
+   text-time="2012-05-10T06:54:50.914048Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="3fd57b7c7b1a38b7c794881e0cbf7fd2"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:50.335889Z"/>
+<entry
+   committed-rev="17"
+   name="MergerPhotoActivity.java"
+   text-time="2012-05-19T07:35:37.084957Z"
+   committed-date="2012-05-20T06:00:58.199825Z"
+   checksum="dfab929409f66946547e75e56eeedd4f"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-10T06:54:50.445271Z"
+   revision="17"/>
+<entry
+   committed-rev="16"
+   name="TakeItemphotoActivity.java"
+   text-time="2012-05-16T02:33:05.922412Z"
+   committed-date="2012-05-16T02:34:34.381939Z"
+   checksum="dd7b5c8034e7fe42d3cf55bc4040d5f3"
+   last-author="yx"
+   kind="file"
+   prop-time="2012-05-10T06:54:50.492148Z"
+   revision="16"/>
+<entry
+   committed-rev="14"
+   name="PreviewItemActivity.java"
+   text-time="2012-05-10T06:54:51.351573Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="2223d8b3404b4ffb9a19af223db5ca8e"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:50.539026Z"/>
+<entry
+   committed-rev="18"
+   name="TouchView.java"
+   text-time="2012-05-19T07:04:03.299793Z"
+   committed-date="2012-05-20T06:02:42.986209Z"
+   checksum="296c932b6cd6ef0901789ddb083e1088"
+   last-author="yx"
+   kind="file"
+   revision="18"/>
+<entry
+   committed-rev="14"
+   name="PreviewBackgroundActivity.java"
+   text-time="2012-05-10T06:54:51.429702Z"
+   committed-date="2012-05-04T06:17:44.025158Z"
+   checksum="590821fe96252e7896f5cffaad3d47f9"
+   last-author="zmm"
+   kind="file"
+   prop-time="2012-05-10T06:54:50.570278Z"/>
+</wc-entries>

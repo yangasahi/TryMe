@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Relative"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee" >
+
+
+
+ <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/title_bar_shang"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/widget40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于我们"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+      
+
+        <ImageButton
+            android:id="@+id/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/back"
+            android:scaleType="matrix" />
+    </RelativeLayout>
+    
+   <TextView
+            android:id="@+id/widget41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topLayout"
+            android:text="       经过了一段挺长时间的搁置，《试一试》终于在最近一段时间团队的齐心协力之下得以完成。希望它能够帮助到爱美的少男少女们能够既方便快捷，又充满乐趣的试穿衣服，帽子，手套等等。如果你在商场里面看到了意见自己喜欢的衣服，如果你逛网店时发现了自己中意的衣服，请不要犹豫，立刻用本软件拍下来按照流程进行试穿吧！如果有好的建议或者意见请第一时间联系我们！"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+<TextView
+            android:id="@+id/widget42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/widget41"
+            android:text="      流程：杨旭  QQ：328837083"
+            android:textColor="#000"
+            android:textSize="18sp" />
+<TextView
+            android:id="@+id/widget43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/widget42"
+            android:text="      算法：刘闯  QQ：195350137"
+            android:textColor="#000"
+            android:textSize="18sp" />
+</RelativeLayout>

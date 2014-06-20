@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select">      
+         <item>全部</item>     
+     <item>手机</item>            
+     <item>电器</item>
+     <item>家具</item>
+     <item>服饰</item>
+     <item>鞋帽</item>
+     <item>饰品</item>
+  </string-array>
+</resources>

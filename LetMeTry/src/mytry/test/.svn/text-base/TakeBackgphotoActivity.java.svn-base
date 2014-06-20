@@ -1,0 +1,124 @@
+package mytry.test;
+
+import mytry.test.TakeItemphotoActivity.DownloadButtonListener;
+import mytry.test.TakeItemphotoActivity.ExtractItemButtonListener;
+import mytry.test.TakeItemphotoActivity.HelpButtonListener;
+import mytry.test.TakeItemphotoActivity.HomeButtonListener;
+import mytry.test.TakeItemphotoActivity.LocalChoiceButtonListener;
+import mytry.test.TakeItemphotoActivity.ReturnButtonListener;
+import mytry.test.TakeItemphotoActivity.TakePhotoButtonListener;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.os.Bundle;
+
+public class TakeBackgphotoActivity extends Activity {
+	private Button previewBackgroundButton;
+	private Button homeButton;
+	private Button returnButton;
+	private Button helpButton;
+	private Button localChoiceButton;
+	private Button takePhotoButton;
+	private Button downloadButton;
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.takebackgphoto);
+        previewBackgroundButton=(Button)findViewById(R.id.previewBackgroundButton);
+        previewBackgroundButton.setOnClickListener(new PreviewBackgroundButtonListener());
+        homeButton=(Button)findViewById(R.id.homeButton);
+        homeButton.setOnClickListener(new HomeButtonListener());
+        returnButton=(Button)findViewById(R.id.returnButton);
+        returnButton.setOnClickListener(new ReturnButtonListener());
+        helpButton=(Button)findViewById(R.id.helpButton);
+        helpButton.setOnClickListener(new HelpButtonListener());
+        localChoiceButton=(Button)findViewById(R.id.localChoiceButton);
+        localChoiceButton.setOnClickListener(new LocalChoiceButtonListener());
+        takePhotoButton=(Button)findViewById(R.id.takePhotoButton);
+        takePhotoButton.setOnClickListener(new TakePhotoButtonListener());
+        downloadButton=(Button)findViewById(R.id.downloadButton);
+        downloadButton.setOnClickListener(new DownloadButtonListener());
+    }
+    class PreviewBackgroundButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			
+			Intent intent = new Intent();
+			intent.setClass(TakeBackgphotoActivity.this, PreviewBackgroundActivity.class);
+			//使用这个Intent对象来启动ResultActivity
+			TakeBackgphotoActivity.this.startActivity(intent);
+		}
+    }
+    class HomeButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			
+			Intent intent = new Intent();
+			intent.setClass(TakeBackgphotoActivity.this, TakeItemphotoActivity.class);
+			//使用这个Intent对象来启动ResultActivity
+			TakeBackgphotoActivity.this.startActivity(intent);
+		}
+    }
+    class ReturnButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			finish();
+			
+		}
+    }
+    class HelpButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(TakeBackgphotoActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+    class LocalChoiceButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(TakeBackgphotoActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+    class TakePhotoButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(TakeBackgphotoActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+    class DownloadButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			new AlertDialog.Builder(TakeBackgphotoActivity.this).setMessage("未实现").setPositiveButton("返回", null).show(); 
+
+			
+		}
+    }
+}

@@ -1,0 +1,51 @@
+package mytry.test;
+
+
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class ShareActivity extends Activity {
+	private Button emailButton;
+	private Button closeButton;
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.share);
+        emailButton=(Button)findViewById(R.id.emailButton);
+        emailButton.setOnClickListener(new EmailButtonListener());
+        closeButton=(Button)findViewById(R.id.closeButton);
+        closeButton.setOnClickListener(new CloseButtonListener());
+        
+    }
+    class EmailButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			
+			Intent intent = new Intent();
+			intent.setClass(ShareActivity.this,PreviewItemActivity.class);
+			//使用这个Intent对象来启动ResultActivity
+			ShareActivity.this.startActivity(intent);
+		}
+    }
+    class CloseButtonListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+		
+			finish();
+			
+		}
+    }
+}
